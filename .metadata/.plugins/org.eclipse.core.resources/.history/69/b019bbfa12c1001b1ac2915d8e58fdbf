@@ -1,0 +1,22 @@
+package com.org.user.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
+public class UserDTO {
+	private String name;
+	private String username;
+	private String password;
+	private String guardianname;
+	private String address;
+	private String email;
+	private String maritalstatus;
+	private long contactno;
+	private String dob;
+	private String accttype;
+
+}

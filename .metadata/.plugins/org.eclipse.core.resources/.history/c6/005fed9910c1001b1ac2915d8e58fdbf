@@ -1,0 +1,16 @@
+package com.org.user.model;
+
+public class UserRegistration {
+	
+	private String name;
+	private String username;
+	private String password;
+	private String guardianname;
+	private String address;
+	private String email;
+	private String maritalstatus;
+	private long contactno;
+	private String dob;
+	private String accttype;
+	
+}

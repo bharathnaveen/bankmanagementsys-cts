@@ -1,0 +1,24 @@
+package com.org.user.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Document(collation = "User")
+
+public class UserRegistration {
+	
+	private String name;
+	private String username;
+	private String password;
+	private String guardianname;
+	private String address;
+	private String email;
+	private String maritalstatus;
+	private long contactno;
+	private String dob;
+	private String accttype;
+	
+}

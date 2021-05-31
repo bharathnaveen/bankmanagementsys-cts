@@ -1,0 +1,23 @@
+package com.org.user.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.org.user.dto.UserDTO;
+import com.org.user.model.UserRegistration;
+import com.org.user.repository.UserRepository;
+
+@Service
+@Transactional
+public class UserServiceImpl implements UserService {
+	
+	@Autowired 
+	UserRepository userRepository;
+	
+	@Override
+	public UserDTO saveUser(UserDTO userDTO) {
+		UserRegistration userreg = new UserRegistration()
+	}
+
+}
